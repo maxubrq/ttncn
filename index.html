@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thuế TNCN 2026 – Swiss</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f2f1ee;--ink:#111;--mute:#77756f;--line:#111;--hair:#cfcdc7;--sig:#e8352a;--card:#f2f1ee;--soft:#e7e5e0}
+@media (prefers-color-scheme:dark){:root{--bg:#0e0e0e;--ink:#ededea;--mute:#8a8984;--line:#ededea;--hair:#2c2c2a;--sig:#ff4a3a;--card:#0e0e0e;--soft:#191918}}
+*{box-sizing:border-box;border-radius:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.45 "Inter Tight",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:28px 20px 80px}
+/* poster header */
+.mast{display:grid;grid-template-columns:repeat(12,1fr);column-gap:16px;border-bottom:2px solid var(--line);padding-bottom:22px;margin-bottom:8px}
+.mast .meta{grid-column:1/-1;display:flex;justify-content:space-between;font-size:12px;text-transform:uppercase;letter-spacing:.04em;margin-bottom:28px}
+.mast .meta span:last-child{text-align:right}
+.mast h1{grid-column:1/-1;margin:0;font-weight:700;font-size:clamp(48px,10.5vw,128px);line-height:.88;letter-spacing:-.045em}
+.mast h1 .l2{display:block;padding-left:calc(100%/12*3);color:var(--sig)}
+.mast .sub{grid-column:4/-1;margin:26px 0 0;font-size:16px;line-height:1.4;color:var(--ink);max-width:620px}
+.mast .sub b{font-weight:600}
+@media(max-width:640px){.mast h1 .l2{padding-left:0}.mast .sub{grid-column:1/-1}}
+/* sections as grid rows */
+main{counter-reset:sec}
+.card{counter-increment:sec;display:grid;grid-template-columns:repeat(12,1fr);column-gap:16px;border-bottom:1px solid var(--line);padding:26px 0 30px;background:none}
+.card::before{content:counter(sec,decimal-leading-zero);grid-column:1/3;grid-row:1/span 30;font-weight:300;font-size:44px;line-height:.9;letter-spacing:-.03em;color:var(--sig)}
+.card>*{grid-column:3/-1}
+@media(max-width:640px){.card{display:block}.card::before{display:block;font-size:32px;margin-bottom:10px}}
+h2{font-size:28px;font-weight:600;letter-spacing:-.025em;line-height:1.05;margin:0 0 14px}
+label{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--mute);display:block;margin-bottom:4px}
+input,select{width:100%;padding:6px 0 7px;border:0;border-bottom:1px solid var(--hair);background:transparent;color:var(--ink);font:500 20px/1.2 "Inter Tight",sans-serif;letter-spacing:-.01em;outline:none;-webkit-appearance:none;appearance:none}
+select{font-size:15px;font-weight:400;padding-right:16px;background:linear-gradient(45deg,transparent 50%,var(--ink) 50%) right 4px center/6px 6px no-repeat}
+input:focus,select:focus{border-bottom-color:var(--sig)}
+input::placeholder{color:var(--mute);font-weight:300;font-size:14px}
+.grid{display:grid;gap:18px 16px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.row{border-top:1px solid var(--hair);padding:14px 28px 16px 0;margin:0;position:relative}
+.row:last-of-type{border-bottom:1px solid var(--hair)}
+.row .x{position:absolute;top:10px;right:0;border:0;background:none;color:var(--mute);font-size:20px;cursor:pointer;line-height:1}
+.row .x:hover{color:var(--sig)}
+button.add,.presets button{border:0;border-bottom:1px solid var(--ink);color:var(--ink);background:none;padding:4px 0;font:500 13px "Inter Tight",sans-serif;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;margin-top:14px;justify-self:start}
+button.add:hover,.presets button:hover{color:var(--sig);border-color:var(--sig)}
+.presets{display:flex;flex-wrap:wrap;gap:6px 22px;padding:18px 0 4px;border-bottom:1px solid var(--line)}
+.presets::before{content:"Ví dụ có sẵn →";font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--mute);align-self:center;margin-top:14px;flex-basis:100%}
+.presets button{margin-top:0}
+.big{display:grid;gap:0;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin:0 0 18px;border-top:2px solid var(--line)}
+.kpi{padding:12px 16px 14px 0;border-bottom:1px solid var(--hair)}
+.kpi .v{font-size:clamp(34px,5vw,52px);font-weight:600;letter-spacing:-.04em;line-height:1;margin-top:8px}
+.kpi .l{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--mute)}
+.pay .v{color:var(--sig)} .ref .v{color:var(--ink)}
+.pay{background:none}
+table{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
+td,th{padding:7px 0;border-bottom:1px solid var(--hair);text-align:right}
+th{font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.06em;color:var(--mute);border-bottom:1px solid var(--line)}
+td:first-child,th:first-child{text-align:left}
+.note{font-size:13px;color:var(--mute);line-height:1.5}
+.adv{border-left:3px solid var(--sig);padding:2px 0 2px 14px;font-size:16px;line-height:1.45;margin:4px 0 8px}
+.adv b{color:var(--sig);font-weight:600}
+details summary{cursor:pointer;font-size:13px;font-weight:500;text-transform:uppercase;letter-spacing:.05em;list-style:none}
+details summary::before{content:"+ "}details[open] summary::before{content:"− "}
+.hint{font-size:11px;color:var(--mute);margin-top:4px}
+/* essence */
+.flow{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:0 12px;margin:2px 0 22px;border-top:2px solid var(--line)}
+.step{padding:12px 0 0;font-size:14px;display:flex;flex-direction:column;gap:6px}
+.step b{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--sig);font-weight:600}
+.arr{padding-top:30px;color:var(--sig);font-size:22px;font-weight:300}
+@media(max-width:640px){.flow{grid-template-columns:1fr}.arr{padding:6px 0 0}}
+.ess{margin:0;padding:0;list-style:none;counter-reset:e;font-size:15px}
+.ess li{counter-increment:e;position:relative;padding:10px 0 10px 36px;border-top:1px solid var(--hair)}
+.ess li::before{content:counter(e,decimal-leading-zero);position:absolute;left:0;top:13px;color:var(--mute);font-size:12px}
+.ess b{font-weight:600}
+/* bracket bar */
+.bar{display:grid;grid-template-columns:repeat(5,1fr);gap:2px;margin:6px 0 4px}
+.bar div{height:34px;background:var(--soft);position:relative;overflow:hidden}
+.bar div i{position:absolute;inset:0 auto 0 0;background:var(--sig)}
+.bar div span{position:absolute;left:6px;bottom:4px;font-size:11px;font-weight:600;color:var(--ink)}
+.barl{display:grid;grid-template-columns:repeat(5,1fr);gap:2px;font-size:11px;color:var(--mute);margin-bottom:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="mast">
+  <div class="meta"><span>Thuế thu nhập cá nhân<br>Cá nhân cư trú</span><span>Kỳ tính thuế<br>01.01 → 31.12.2026</span></div>
+  <h1>Thuế TNCN<span class="l2">2026</span></h1>
+  <p class="sub">Tính thuế cho <b>lương nhiều nơi, ESOP, thu nhập vãng lai, kinh doanh và thai sản</b>. Biểu 5 bậc, giảm trừ 15,5tr / 6,2tr. Đơn vị nhập: <b>triệu đồng</b>.</p>
+</header>
+<main>
+
+<div class="card">
+  <h2>Thuế tính theo năm.<br>Trừ hằng tháng chỉ là tạm nộp.</h2>
+  <div class="flow">
+    <div class="step"><b>Trong năm</b><span>Công ty và bên chi trả trừ thuế <i>tạm</i> mỗi lần trả tiền</span></div>
+    <div class="arr">→</div>
+    <div class="step"><b>Hết năm</b><span>Cộng toàn bộ thu nhập, tính lại thuế <i>thật</i> theo biểu năm</span></div>
+    <div class="arr">→</div>
+    <div class="step"><b>Trước 30/4 năm sau</b><span>Thuế thật − đã tạm nộp: dương thì nộp thêm, âm thì được hoàn</span></div>
+  </div>
+  <ol class="ess">
+    <li><b>Biểu tháng chính là biểu năm chia 12.</b> Lương đều cả năm ở một công ty thì số trừ hằng tháng gần như khớp với thuế năm, nên thường không phải nộp thêm.</li>
+    <li><b>Lệch phát sinh khi thu nhập không đều:</b> đổi việc, nghỉ giữa năm, thưởng lớn, ESOP, làm thêm nhiều nơi. Mỗi nơi chỉ thấy phần tiền nó trả nên trừ theo phần đó. Khi cộng lại, tổng thu nhập rơi vào bậc cao hơn.</li>
+    <li><b>Khoản vãng lai bị trừ cố định 10%.</b> Ví dụ: ESOP trả sau khi đã nghỉ việc, hợp đồng dưới 3 tháng. Nếu tổng thu nhập năm đẩy khoản này vào bậc 20% hay 30% thì phải nộp thêm phần chênh lệch. Nếu nằm ở bậc 5% thì được hoàn.</li>
+    <li><b>Giảm trừ bản thân 186tr/năm tính đủ 12 tháng</b>, kể cả các tháng không có thu nhập. Nghỉ việc, thất nghiệp hay thai sản đều giúp kéo thuế năm xuống.</li>
+    <li><b>Có khoản không chịu thuế:</b> trợ cấp thất nghiệp, thai sản do BHXH chi. <b>Có khoản tính riêng, không gộp:</b> thu nhập kinh doanh (app, bán hàng), chứng khoán, cho thuê.</li>
+  </ol>
+  <p class="note" style="margin:6px 0 0"><b>Quy tắc nhanh để chừa tiền:</b> khoản thưởng hoặc vãng lai × (bậc thuế mà nó rơi vào − tỷ lệ đã bị trừ).</p>
+</div>
+
+<div class="presets">
+  <button data-p="gap">đổi việc giữa năm + ESOP net</button>
+  <button data-p="full">đủ 12 tháng + ESOP gross</button>
+  <button data-p="free">freelance vãng lai</button>
+  <button data-p="app">lương + app</button>
+  <button data-p="ts">nghỉ thai sản</button>
+  <button data-p="clear">Xóa trắng</button>
+</div>
+
+<div class="card">
+  <h2>Giảm trừ</h2>
+  <div class="grid">
+    <div><label>Số người phụ thuộc</label><input id="npt" type="number" min="0" value="0"></div>
+    <div><label>Số tháng có người phụ thuộc</label><input id="nptm" type="number" min="0" max="12" value="12"></div>
+    <div><label>Con mới sinh: số tháng tính từ tháng sinh</label><input id="nbm" type="number" min="0" max="12" value="0"><div class="hint">Sinh tháng 7 thì nhập 6</div></div>
+    <div><label>Từ thiện, nhân đạo (năm)</label><input id="tt" type="number" min="0" value="0"></div>
+    <div><label>Quỹ hưu trí tự nguyện (năm)</label><input id="ht" type="number" min="0" value="0"><div class="hint">Tối đa 12tr/năm</div></div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Lương theo giai đoạn</h2>
+  <p class="note">Mỗi công ty hoặc mỗi mức lương nhập một dòng. Không cần nhập các khoản không chịu thuế: trợ cấp thất nghiệp, trợ cấp thai sản do BHXH chi (gồm cả trợ cấp một lần khi sinh con). Nếu công ty trả thêm lương hoặc hỗ trợ trong thời gian nghỉ thai sản, nhập thành một dòng riêng với lương đóng BH = 0, vì khoản này vẫn chịu thuế.</p>
+  <div id="sal"></div>
+  <button class="add" id="addSal">+ Thêm giai đoạn lương</button>
+  <details style="margin-top:12px"><summary>Tham số bảo hiểm</summary>
+    <div class="grid" style="margin-top:8px">
+      <div><label>Lương cơ sở</label><input id="lcs" type="number" step="0.01" value="2.34"><div class="hint">Trần BHXH, BHYT = 20 × lương cơ sở</div></div>
+      <div><label>Lương tối thiểu vùng</label><select id="vung"><option value="5.31">Vùng I – 5,31</option><option value="4.73">Vùng II – 4,73</option><option value="4.14">Vùng III – 4,14</option><option value="3.7">Vùng IV – 3,70</option></select><div class="hint">Trần BHTN = 20 × mức vùng</div></div>
+    </div>
+    <p class="note">Hãy kiểm tra lại hai mức này với phiếu lương thực tế nếu chúng thay đổi trong năm.</p>
+  </details>
+</div>
+
+<div class="card">
+  <h2>ESOP, thưởng sau nghỉ việc, vãng lai</h2>
+  <p class="note">Gồm các khoản bị khấu trừ cố định 10%, như ESOP trả tiền sau khi nghỉ việc hoặc hợp đồng dưới 3 tháng, từ 2tr/lần trở lên.</p>
+  <div id="vl"></div>
+  <button class="add" id="addVl">+ Thêm khoản</button>
+</div>
+
+<div class="card">
+  <h2>Tự kinh doanh</h2>
+  <p class="note">Thu nhập kinh doanh tính thuế <b>riêng</b>: không gộp với lương, không dùng giảm trừ gia cảnh, không ảnh hưởng bậc lũy tiến của lương. Doanh thu cả năm từ 500tr trở xuống không phải nộp thuế TNCN.</p>
+  <div class="grid">
+    <div><label>Doanh thu cả năm</label><input id="dt" type="number" min="0" value="0"><div class="hint">Gồm doanh thu từ App Store, Google Play, Stripe...</div></div>
+    <div><label>Chi phí hợp lý có chứng từ</label><input id="cp" type="number" min="0" placeholder="để trống nếu không theo dõi"></div>
+    <div><label>Nhóm ngành (tỷ lệ trên doanh thu)</label><select id="nganh">
+      <option value="0.02">Dịch vụ, gồm phần mềm, app – 2%</option>
+      <option value="0.005">Phân phối, bán hàng hóa – 0,5%</option>
+      <option value="0.015">Sản xuất, vận tải, dịch vụ gắn hàng hóa – 1,5%</option>
+      <option value="0.01">Hoạt động khác – 1%</option>
+      <option value="0.05">Cho thuê bất động sản – 5%</option>
+    </select></div>
+    <div><label>Thuế kinh doanh đã nộp trong năm</label><input id="bpaid" type="number" min="0" value="0"></div>
+  </div>
+</div>
+
+<div class="card" id="out"></div>
+
+<div class="card">
+  <details><summary>Cách tính và quy tắc</summary>
+  <div class="note" style="margin-top:8px">
+  <p><b>1.</b> Thu nhập tính thuế năm = Tổng thu nhập gross chịu thuế − 186tr (bản thân) − 6,2tr × số người phụ thuộc × số tháng − bảo hiểm bắt buộc − từ thiện − quỹ hưu trí tự nguyện.</p>
+  <p><b>2.</b> Thuế năm tính theo biểu năm: đến 120tr 5% · 120–360 10% · 360–720 20% · 720–1.200 30% · trên 1.200 35%. Biểu tháng bằng biểu năm chia 12.</p>
+  <p><b>3.</b> Phải nộp thêm = Thuế năm − tổng đã khấu trừ. Kết quả âm thì được hoàn.</p>
+  <p><b>Quy tắc nhanh cho ESOP:</b> số cần chừa ≈ ESOP × (thuế suất bậc mà ESOP rơi vào − 10%).</p>
+  <p><b>Ngoài phạm vi trang này:</b> cá nhân không cư trú (chịu cố định 20%, không quyết toán); ESOP nhận bằng cổ phiếu (đánh thuế khác); thu nhập kinh doanh, cho thuê, chuyển nhượng chứng khoán và các thu nhập khác không gộp vào quyết toán lương.</p>
+  <p>Số thuế đã khấu trừ được ước tính theo biểu tháng mới. Nếu chứng từ khấu trừ ghi số khác (ví dụ công ty áp biểu cũ cho các tháng đầu năm), hãy nhập số thực tế vào ô tương ứng. Trang này chỉ để tham khảo, số chính thức là số trên tờ khai quyết toán.</p>
+  </div></details>
+</div>
+</main>
+</div>
+
+<script>
+const B=[[120,.05],[360,.10],[720,.20],[1200,.30],[Infinity,.35]];
+const $=id=>document.getElementById(id);
+const n=v=>{v=parseFloat(String(v).replace(',','.'));return isFinite(v)?v:0};
+const f=v=>(Math.round(v*100)/100).toLocaleString('vi-VN',{maximumFractionDigits:2});
+function tax(ti,div=1){let t=0,lo=0,rows=[];for(const[hi0,r]of B){const hi=hi0/div;if(ti>lo){const p=Math.min(ti,hi)-lo;t+=p*r;rows.push([lo,hi,r,p,p*r]);}lo=hi;}return{t,rows}}
+function ins(g,base){const lcs=n($('lcs').value),v=n($('vung').value);const b=(base===''||base==null)?g:n(base);return Math.min(b,20*lcs)*0.095+Math.min(b,20*v)*0.01}
+
+function salRow(d={}){const el=document.createElement('div');el.className='row';el.innerHTML=`<button class="x" title="Xóa">×</button>
+<div class="grid">
+<div><label>Tên (tuỳ chọn)</label><input data-k="name" value="${d.name||''}"></div>
+<div><label>Số tháng</label><input data-k="m" type="number" min="0" max="12" value="${d.m??''}"></div>
+<div><label>Lương gross/tháng</label><input data-k="g" type="number" min="0" value="${d.g??''}"></div>
+<div><label>Lương đóng BH/tháng</label><input data-k="b" type="number" min="0" placeholder="= gross" value="${d.b??''}"><div class="hint">Nhập 0 nếu tháng đó nghỉ thai sản hoặc không đóng BH</div></div>
+<div><label>Thưởng, tháng 13 (tổng)</label><input data-k="bon" type="number" min="0" value="${d.bon??''}"></div>
+<div><label>Thuế đã khấu trừ thực tế</label><input data-k="wh" type="number" min="0" placeholder="để trống = ước tính" value="${d.wh??''}"></div>
+</div>`;el.querySelector('.x').onclick=()=>{el.remove();calc()};$('sal').appendChild(el)}
+function vlRow(d={}){const el=document.createElement('div');el.className='row';el.innerHTML=`<button class="x" title="Xóa">×</button>
+<div class="grid">
+<div><label>Tên khoản</label><input data-k="name" value="${d.name||''}"></div>
+<div><label>Số tiền</label><input data-k="a" type="number" min="0" value="${d.a??''}"></div>
+<div><label>Số tiền nhập là</label><select data-k="t"><option value="net"${d.t==='net'?' selected':''}>Thực nhận (đã trừ thuế)</option><option value="gross"${d.t==='gross'?' selected':''}>Gross (trước thuế)</option></select></div>
+<div><label>Tỷ lệ đã khấu trừ (%)</label><input data-k="r" type="number" min="0" max="35" value="${d.r??10}"></div>
+</div>`;el.querySelector('.x').onclick=()=>{el.remove();calc()};$('vl').appendChild(el)}
+const get=el=>{const o={};el.querySelectorAll('[data-k]').forEach(i=>o[i.dataset.k]=i.value);return o};
+
+function calc(){
+ const npt=n($('npt').value),nptm=Math.min(12,n($('nptm').value));
+ let G=0,BH=0,WH=0,months=0,salTI=0,lines=[],estNote=false;
+ $('sal').querySelectorAll('.row').forEach(r=>{const d=get(r),m=n(d.m),g=n(d.g),bon=n(d.bon);if(!m&&!g&&!bon)return;
+  const bh=ins(g,d.b);const gross=m*g+bon,bhT=m*bh;
+  let wh;if(d.wh!==''){wh=n(d.wh)}else{estNote=true;const ded=15.5+6.2*npt;const base=Math.max(0,g-bh-ded);const mt=tax(base,12).t;wh=m*mt+(bon?tax(base+bon,12).t-mt:0)}
+  G+=gross;BH+=bhT;WH+=wh;months+=m;lines.push([d.name||'Lương',gross,bhT,wh])});
+ let esop=0,ewh=0;
+ $('vl').querySelectorAll('.row').forEach(r=>{const d=get(r),a=n(d.a),rt=n(d.r)/100;if(!a)return;
+  const gross=d.t==='net'?a/(1-rt):a,wh=gross*rt;esop+=gross;ewh+=wh;lines.push([d.name||'Khoản vãng lai',gross,0,wh])});
+ G+=esop;WH+=ewh;
+ const ded=186+6.2*npt*nptm+6.2*Math.min(12,n($('nbm').value)),other=Math.min(n($('ht').value),12)+n($('tt').value);
+ const TI=Math.max(0,G-ded-BH-other);const T=tax(TI);const diff=T.t-WH;
+ const salOnly=Math.max(0,G-esop-ded-BH-other);const marg=TI>0?T.rows[T.rows.length-1][2]:0;
+ const net=G-BH-T.t;const inHand=G-BH-WH;
+ const BZ=biz();
+ if(!G&&!BZ.dt){$('out').innerHTML='<h2>Kết quả</h2><p class="note">Nhập lương hoặc một khoản thu nhập để xem kết quả.</p>';return}
+ if(!G){$('out').innerHTML='<h2>Kết quả</h2>'+BZ.html;return}
+ let adv='';
+ const hasVL=esop>0,multi=$('sal').querySelectorAll('.row').length>1;
+ if(diff<=0.05&&diff>=0)adv='Số phải nộp thêm không quá 50.000đ nên bạn thuộc diện <b>miễn quyết toán</b>.';
+ else if(diff<0)adv=`Bạn đã nộp thừa <b>${f(-diff)}tr</b>. Hãy tự quyết toán để được hoàn hoặc bù trừ vào kỳ sau, hạn chót 30/4 năm sau.`;
+ else adv=`Hãy chừa <b>${f(diff)}tr</b> và <b>tự quyết toán</b> trước 30/4/2027 qua eTax hoặc thuedientu (tờ khai 02/QTT-TNCN và bảng kê 02-1/BK-QTT-TNCN). Nộp trễ bị tính tiền chậm nộp 0,03% mỗi ngày.`;
+ if(diff>0.05&&(hasVL||multi))adv+=' Vì bạn có thu nhập ở nơi khác vượt bình quân 10tr/tháng, bạn không thể ủy quyền cho công ty quyết toán thay.';
+ if(npt===0&&diff>5)adv+=` Nếu đăng ký được 1 người phụ thuộc đủ 12 tháng, số phải nộp giảm khoảng <b>${f(Math.min(diff,tax(TI).t-tax(Math.max(0,TI-74.4)).t))}tr</b>.`;
+ $('out').innerHTML=`<h2>Kết quả</h2>
+<div class="big">
+ <div class="kpi ${diff>0.05?'pay':'ref'}"><div class="l">${diff>0.05?'Cần chừa để nộp thêm':diff<0?'Được hoàn':'Chênh lệch'}</div><div class="v">${f(Math.abs(diff))} tr</div></div>
+ <div class="kpi"><div class="l">Thực nhận cả năm sau quyết toán</div><div class="v">${f(net)} tr</div></div>
+ <div class="kpi"><div class="l">Thuế cả năm · bình quân ${f(T.t/G*100)}% · biên ${marg*100}%</div><div class="v">${f(T.t)} tr</div></div>
+</div>
+<div class="adv">${adv}</div>
+<div class="bar">${B.map(([hi,r],i)=>{const lo=i?B[i-1][0]:0,top=hi===Infinity?Math.max(TI,1500):hi;const p=Math.max(0,Math.min(1,(TI-lo)/(top-lo)));return `<div><i style="width:${p*100}%"></i><span>${r*100}%</span></div>`}).join('')}</div>
+<div class="barl"><span>0–120</span><span>120–360</span><span>360–720</span><span>720–1.200</span><span>1.200+</span></div>
+<p class="note" style="margin-top:-8px">Thu nhập tính thuế năm ${f(TI)}tr lấp đầy các bậc như trên.</p>
+<h2 style="margin-top:22px">Chi tiết</h2>
+<table>
+<tr><th>Khoản</th><th>Gross</th><th>BH</th><th>Đã khấu trừ</th></tr>
+${lines.map(l=>`<tr><td>${l[0]}</td><td>${f(l[1])}</td><td>${f(l[2])}</td><td>${f(l[3])}</td></tr>`).join('')}
+<tr><td><b>Tổng</b></td><td><b>${f(G)}</b></td><td><b>${f(BH)}</b></td><td><b>${f(WH)}</b></td></tr>
+</table>
+<table style="margin-top:10px">
+<tr><td>Giảm trừ gia cảnh</td><td>${f(ded)}</td></tr>
+<tr><td>Từ thiện, hưu trí tự nguyện</td><td>${f(other)}</td></tr>
+<tr><td><b>Thu nhập tính thuế năm</b></td><td><b>${f(TI)}</b></td></tr>
+${T.rows.map(r=>`<tr><td>Bậc ${r[2]*100}% (${f(r[0])}–${r[1]===Infinity?'∞':f(r[1])})</td><td>${f(r[3])} → ${f(r[4])}</td></tr>`).join('')}
+<tr><td><b>Thuế năm</b></td><td><b>${f(T.t)}</b></td></tr>
+<tr><td>Tiền đã về tay (gross − BH − đã khấu trừ)</td><td>${f(inHand)}</td></tr>
+</table>
+${esop?`<p class="note" style="margin-top:10px">Khoản ESOP/vãng lai chồng lên phần lương (thu nhập tính thuế ${f(salOnly)}tr). Tổng thuế phát sinh thêm do khoản này là ${f(T.t-tax(salOnly).t)}tr, tương đương ${f((T.t-tax(salOnly).t)/esop*100)}% số tiền.</p>`:''}
+${BZ.html}
+${estNote?'<p class="note">* Thuế đã khấu trừ trên lương là số ước tính theo biểu tháng. Hãy thay bằng số trên chứng từ khấu trừ để kết quả chính xác.</p>':''}`;
+}
+function biz(){
+ const dt=n($('dt').value),cpRaw=$('cp').value,cp=n(cpRaw),r=n($('nganh').value),paid=n($('bpaid').value);
+ if(!dt)return{dt:0,html:''};
+ let tax,method,alt='';
+ if(dt<=500){tax=0;method='Doanh thu không quá 500tr nên không phải nộp thuế TNCN'}
+ else if(dt<=3000){
+  const byRate=(dt-500)*r;const byInc=cpRaw!==''?Math.max(0,dt-cp)*0.15:null;
+  if(byInc!==null&&byInc<byRate){tax=byInc;method=`Phương pháp thu nhập: (${f(dt)} − ${f(cp)}) × 15%`;alt=`Nếu tính theo tỷ lệ trên doanh thu: (${f(dt)} − 500) × ${r*100}% = ${f(byRate)}tr.`}
+  else{tax=byRate;method=`Phương pháp tỷ lệ: (${f(dt)} − 500) × ${r*100}%`;if(byInc!==null)alt=`Nếu tính theo thu nhập: (${f(dt)} − ${f(cp)}) × 15% = ${f(byInc)}tr.`;else alt='Nhập chi phí để so sánh với phương pháp 15% trên thu nhập.'}
+ }else{const rr=dt>50000?0.20:0.17;tax=Math.max(0,dt-cp)*rr;method=`Doanh thu trên ${dt>50000?'50 tỷ':'3 tỷ'} bắt buộc tính theo thu nhập: (${f(dt)} − ${f(cp)}) × ${rr*100}%`}
+ const d=tax-paid;
+ return{dt,tax,d,html:`<h2 style="margin-top:22px">Kinh doanh (tính riêng)</h2>
+<div class="big"><div class="kpi ${d>0.05?'pay':'ref'}"><div class="l">${d>0.05?'Cần chừa thuế kinh doanh':d<0?'Nộp thừa':'Chênh lệch'}</div><div class="v">${f(Math.abs(d))} tr</div></div>
+<div class="kpi"><div class="l">Thuế TNCN kinh doanh cả năm</div><div class="v">${f(tax)} tr</div></div></div>
+<p class="note">${method}. ${alt}</p>
+<p class="note">Trang chưa tính thuế GTGT. Dịch vụ phần mềm thường thuộc diện không chịu GTGT, nhưng hãy kiểm tra lại với từng loại doanh thu. Từ 2026, hộ và cá nhân kinh doanh tự kê khai và nộp thuế; với doanh thu từ App Store hay Google Play, nền tảng nước ngoài không khấu trừ thay nên bạn tự kê khai.</p>`};
+}
+const P={
+ gap:{npt:1,s:[{name:'Công ty A',m:5,g:35},{name:'Công ty B',m:3,g:55}],v:[{name:'ESOP',a:300,t:'net',r:10}]},
+ full:{npt:0,s:[{name:'Lương cả năm',m:12,g:30}],v:[{name:'ESOP',a:250,t:'gross',r:10}]},
+ app:{npt:0,s:[{name:'Lương',m:12,g:28}],v:[],dt:750,cp:200},
+ ts:{npt:0,nbm:6,s:[{name:'Đi làm T1–T6',m:6,g:25},{name:'Công ty hỗ trợ khi nghỉ thai sản',m:6,g:3,b:0}],v:[]},
+ free:{npt:0,s:[{name:'Lương chính',m:12,g:22}],v:[{name:'Dự án freelance',a:150,t:'gross',r:10}]},
+ clear:{npt:0,s:[{}],v:[]}
+};
+function load(k){const p=P[k];$('npt').value=p.npt;$('nptm').value=12;$('nbm').value=p.nbm||0;$('tt').value=0;$('ht').value=0;$('dt').value=p.dt||0;$('cp').value=p.cp??'';$('bpaid').value=0;$('sal').innerHTML='';$('vl').innerHTML='';p.s.forEach(salRow);p.v.forEach(vlRow);calc()}
+document.querySelectorAll('.presets button').forEach(b=>b.onclick=()=>load(b.dataset.p));
+$('addSal').onclick=()=>{salRow();calc()};$('addVl').onclick=()=>{vlRow({r:10,t:'gross'});calc()};
+document.addEventListener('input',calc);document.addEventListener('change',calc);
+load('full');
+</script>
+</body>
+</html>
